@@ -35,6 +35,19 @@
  * @since	Version 1.0.0
  * @filesource
  */
+ 	
+/*
+* --------------------------------------------------------------------
+* LOAD PHP DOT ENV FILE
+* --------------------------------------------------------------------
+*
+* And away we go...
+*
+*/
+require_once './system/dotenv/autoloader.php';
+
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
 
 /*
  *---------------------------------------------------------------
@@ -53,7 +66,7 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : getenv('ENVIRONMENT'));
 
 /*
  *---------------------------------------------------------------
