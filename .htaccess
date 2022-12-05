@@ -1,0 +1,10 @@
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# protected .env file and all hidden file
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>

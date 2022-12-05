@@ -28,5 +28,6 @@ php index.php matches do:migration
 ```
 
 ### Extends Library
-- CLI https://github.com/avenirer/codeigniter-matches-cli
+- Cli https://github.com/avenirer/codeigniter-matches-cli
 - Ion Auth https://github.com/benedmunds/CodeIgniter-Ion-Auth
+- Datatables https://github.com/kintamahadji/Ignited-Datatable
