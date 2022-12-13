@@ -4,7 +4,8 @@
   "description": "Codeigniter 3 the setup that I think is the most comfortable :).",
   "main": "index.js",
   "scripts": {
-    "watch": "npx tailwindcss -i ./assets/input.css -o ./assets/dist/style.css --watch"
+    "watch": "npx tailwindcss -i ./assets/input.css -o ./assets/dist/style.css --watch",
+    "build": "npx tailwindcss -o ./assets/dist/style.css --minify"
   },
   "repository": {
     "type": "git",
