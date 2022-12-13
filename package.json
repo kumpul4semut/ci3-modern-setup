@@ -1,0 +1,23 @@
+{
+  "name": "ci3-modern-setup",
+  "version": "1.0.0",
+  "description": "Codeigniter 3 the setup that I think is the most comfortable :).",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./assets/input.css -o ./assets/dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumpul4semut/ci3-modern-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumpul4semut/ci3-modern-setup/issues"
+  },
+  "homepage": "https://github.com/kumpul4semut/ci3-modern-setup#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

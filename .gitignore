@@ -33,3 +33,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 # Env
 .env
+
+# node modules
+node_modules
